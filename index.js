@@ -1,5 +1,4 @@
-
-const { promises: fs } = require("fs");
+const { promises: fs } = require("fs")
 const appdata = process.env.APPDATA 
 
 async function getTokens(path) {
